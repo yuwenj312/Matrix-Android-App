@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77227679417",
+    "project_id": "matrix-9cbe5",
+    "storage_bucket": "matrix-9cbe5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77227679417:android:7ce0f98b8afb3f1ce18568",
+        "android_client_info": {
+          "package_name": "com.laioffer.matrix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77227679417-kaal37iffee55i6had7eed4hvcg4oush.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAARK4YRXFlye87QyBHgaLBUPMTGzW_o7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77227679417-kaal37iffee55i6had7eed4hvcg4oush.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
