@@ -2,6 +2,7 @@ package com.laioffer.matrix;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
@@ -108,7 +109,15 @@ public class ReportDialog extends Dialog {
                 mViewSwitcher.showPrevious();
             }
         });
+        mImageCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mDialogCallBack.startCamera();
+            }
+        });
     }
-
+    public void updateImage(Bitmap bitmap) {
+        mImageCamera.setImageBitmap(bitmap);
+    }
 
 }
